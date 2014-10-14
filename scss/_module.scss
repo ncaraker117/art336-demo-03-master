@@ -13,3 +13,63 @@ Module Rules
     padding: 0 4px;
     text-decoration: none;
 }
+
+nav[role="navigation"] ul a {
+    border: 1px solid $color;
+    color: $color;
+    display: inline-block;
+    @include fontSize(16px);
+    @include headline-font;
+    margin-left: 8px;
+    padding: 0 4px;
+    text-decoration: none;
+    transition: border 400ms linear;
+    transition: color 400ms linear;
+}
+
+nav[role="navigation"] ul a:hover {
+    border: 1px solid $color;
+    color: lighten($color, 30%);
+    transition: border 400ms linear;
+    transition: color 400ms linear;
+}
+
+header[role="banner"] {
+    background-color: $color;
+    color: $background-color;
+    padding: 12px;
+    animation: colorchange-font 5s linear 1s infinite alternate;
+    display: inline-block;
+}
+
+header[role="banner"] img {
+    border-radius: 50%;
+    max-width: 75%;    
+}
+
+header[role="banner"] p {
+    @include fontSize(23px);
+}
+
+header[role="banner"] a {
+    color: $background-color;
+    @include body-font-italic;
+    transition: color 400ms linear;
+}
+
+main[role="main"] h1 {
+    animation: colorchange-font 5s linear 1s infinite alternate;
+    background-color: $color;
+    color: $background-color;
+    padding: 0 8px;
+}
+
+footer[role="contentinfo"] {
+    animation: colorchange-font 5s linear 1s infinite alternate;
+    background-color: $color;
+    color: $background-color;
+    @include body-font-italic;
+    line-height: 1;
+    padding: 4px 8px 8px 8px;
+    
+}
