@@ -10,12 +10,15 @@ Module Rules
     animation: colorchange-font 5s linear 1s infinite alternate;
     display: inline-block;
     @include headline-font;
-    padding: 0 4px;
+    padding: 4px;
     text-decoration: none;
+    border-bottom-left-radius: 10px;   
+    border-bottom-right-radius: 10px
 }
 
 nav[role="navigation"] ul a {
     border: 1px solid $color;
+    border-radius: 5px;
     color: $color;
     display: inline-block;
     @include fontSize(16px);
@@ -77,6 +80,8 @@ main[role="main"] h1 {
     background-color: $color;
     color: $background-color;
     padding: 0 8px;
+    border-radius: 10px;
+
 }
 
 footer[role="contentinfo"] {
@@ -86,5 +91,8 @@ footer[role="contentinfo"] {
     @include body-font-italic;
     line-height: 1;
     padding: 4px 8px 8px 8px;
-    
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
+
+
