@@ -7,6 +7,12 @@ html {
     background-color: $background-color;
 }
 
+html {
+    animation: colorchange-font 20s linear 2s infinite alternate;
+    background-color: $background-color;
+}
+
+
 html { 
   background: url(..//img/62_HorseHeadNebula_free_space_computerdesktopwallpaper_l.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;

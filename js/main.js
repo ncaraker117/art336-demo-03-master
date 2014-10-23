@@ -30,11 +30,12 @@ $(function() {
         custom: {
             families: ['cubano'], // font-family name
             urls : ['css/main.css'] // url to css
-        },
+        }
         active: function() {
-            $('#banner-headline').bigtext();
-            $('#identity-headline').bigtext();
-            $('#typograpy-headline').bigtext();
+            $('#banner-headline').bigtext() 
+            $('#overview').bigtext();
+            $('#images').bigtext();
+            $('#videos').bigtext();
         }
     });
 });
