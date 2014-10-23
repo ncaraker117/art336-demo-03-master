@@ -18,9 +18,14 @@ $(function() {
 
 // initialize fitvids.js
 // Remove /* and */ to initiate the plugin
-/* $(document).ready(function(){
+ $(document).ready(function(){
+<<<<<<< HEAD
     $(".fitvids").fitVids(); // target your .container, .wrapper, .post, etc.
 }); */
+=======
+    $("main").fitVids(); // target your .container, .wrapper, .post, etc.
+}); 
+>>>>>>> FETCH_HEAD
 
 
 // initialize bigtext.js

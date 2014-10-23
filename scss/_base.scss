@@ -3,8 +3,16 @@ Base Rules
 	A Base rule is applied to an element using an element selector, a descendent selector, or a child selector, along with any pseudoclasses. It doesn’t include any class or ID selectors. It is defining the default styling for how that element should look in all occurrences on the page.
 */
 html {
-    animation: colorchange-background 5s linear 1s infinite alternate;
+    animation: colorchange-background 20s linear 2s infinite alternate;
     background-color: $background-color;
+}
+
+html { 
+  background: url(..//img/62_HorseHeadNebula_free_space_computerdesktopwallpaper_l.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 body {
@@ -12,9 +20,9 @@ body {
     //box-sizing: border-box;
     @include body-font-regular;
     @include fontSize(20px);
-    //padding: 0 8px;
+    padding: 0 8px;
     margin: 0 auto;
-    max-width: 500px;
+    max-width: 1140px;
     width: 100%;
 }
 

@@ -13,6 +13,10 @@ Globals
 $color: #242424;
 $background-color: #beeaff;
 $background-color-alternate: #d8c0ff;
+$background-color-alternate-2: #66E0C2;
+$block-quote-color: #838389;
+$background-transparency: #A7A7A7;
+
 
 
 // Mixin that will include the fall back px declaration as well as the calculated rem value.
@@ -40,7 +44,7 @@ $background-color-alternate: #d8c0ff;
 }
 
 @mixin headline-font {
-    font-family: "cubano",helvetica,verdana,sans-serif;
+    font-family: "cubano","helvetica","verdana",sans-serif;
     font-style: normal;
     font-weight: 400;
 }
@@ -52,7 +56,9 @@ $background-color-alternate: #d8c0ff;
 
 @keyframes colorchange-background {
     0% { background-color: $background-color;}
-    50% { background-color: $background-color-alternate; }
+    25% { background-color: $background-color-alternate; }
+    50% { background-color: $background-color-alternate-2; }
+    75% { background-color: $background-color-alternate; }
     100% { background-color: $background-color; }
 }
 
