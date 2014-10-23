@@ -2,7 +2,6 @@
 Globals
 	Sass variable, mixins, plugins, etc. that are used throughout the entore site.
 */
-
 // Function for converting a px based font-size to rem.
 @function calculateRem($size) {
     $remSize: $size / 16px;

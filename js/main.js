@@ -1,5 +1,5 @@
 // initialize animated anchor scroll
-// Remove /* and */ to initiate the s
+// Remove /* and */ to initiate the plugin
 $(function() {
     $('a[href*=#]:not([href=#])').click(function() {
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -19,16 +19,8 @@ $(function() {
 // initialize fitvids.js
 // Remove /* and */ to initiate the plugin
  $(document).ready(function(){
-    $(".fitvids").fitVids(); // target your .container, .wrapper, .post, etc.
-}); */
-=======
     $("main").fitVids(); // target your .container, .wrapper, .post, etc.
 }); 
-
-=======
-    $("main").fitVids(); // target your .container, .wrapper, .post, etc.
-}); 
->>>>>>> FETCH_HEAD
 
 
 // initialize bigtext.js
@@ -43,7 +35,6 @@ $(function() {
             $('#banner-headline').bigtext();
             $('#identity-headline').bigtext();
             $('#typograpy-headline').bigtext();
-            $('#webapps-headline').bigtext();
         }
     });
 });
