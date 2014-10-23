@@ -412,6 +412,7 @@ Globals
   }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   25% {
     background-color: #d8c0ff;
   }
@@ -421,6 +422,9 @@ Globals
   }
 
   75% {
+=======
+  50% {
+>>>>>>> FETCH_HEAD
 =======
   50% {
 >>>>>>> FETCH_HEAD
@@ -437,6 +441,7 @@ Globals
   }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   25% {
     background-color: #d8c0ff;
   }
@@ -446,6 +451,9 @@ Globals
   }
 
   75% {
+=======
+  50% {
+>>>>>>> FETCH_HEAD
 =======
   50% {
 >>>>>>> FETCH_HEAD
@@ -488,6 +496,7 @@ Base Rules
 */
 html {
 <<<<<<< HEAD
+<<<<<<< HEAD
   -webkit-animation: colorchange-background 20s linear 2s infinite alternate;
   animation: colorchange-background 20s linear 2s infinite alternate;
   background-color: #beeaff;
@@ -500,11 +509,16 @@ html {
 }
 
 =======
+=======
+>>>>>>> FETCH_HEAD
   -webkit-animation: colorchange-background 5s linear 1s infinite alternate;
   animation: colorchange-background 5s linear 1s infinite alternate;
   background-color: #beeaff;
 }
 
+<<<<<<< HEAD
+>>>>>>> FETCH_HEAD
+=======
 >>>>>>> FETCH_HEAD
 body {
   color: #242424;
@@ -514,9 +528,14 @@ body {
   font-size: 20px;
   font-size: 1.25rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   padding: 0 8px;
   margin: 0 auto;
   max-width: 500px;
+=======
+  margin: 0 auto;
+  max-width: 1140px;
+>>>>>>> FETCH_HEAD
 =======
   margin: 0 auto;
   max-width: 1140px;
@@ -531,7 +550,11 @@ img {
 
 h1, h2 {
 <<<<<<< HEAD
+<<<<<<< HEAD
   font-family: "cubano","helvetica","verdana",sans-serif;
+=======
+  font-family: "cubano",helvetica,verdana,sans-serif;
+>>>>>>> FETCH_HEAD
 =======
   font-family: "cubano",helvetica,verdana,sans-serif;
 >>>>>>> FETCH_HEAD
@@ -553,7 +576,10 @@ nav[role="navigation"] ul, .contact ul {
   margin: 0;
   padding: 0;
 <<<<<<< HEAD
+<<<<<<< HEAD
   border-radius: 10px;
+=======
+>>>>>>> FETCH_HEAD
 =======
 >>>>>>> FETCH_HEAD
 }
@@ -569,6 +595,7 @@ nav[role="navigation"] ul li, .contact ul li {
 }
 
 header[role="banner"] {
+<<<<<<< HEAD
 <<<<<<< HEAD
   margin: 30px 0 100px 0;
   border-radius: 5%;
@@ -594,6 +621,8 @@ blockquote {
   border-bottom: 3px solid #ccc;
   margin-top: 5.0em;
 =======
+=======
+>>>>>>> FETCH_HEAD
   border-radius: 10px;
   margin: 30px 0 100px 0;
   position: relative;
@@ -621,6 +650,9 @@ blockquote {
 
 .banner-photo {
   text-align: center;
+<<<<<<< HEAD
+>>>>>>> FETCH_HEAD
+=======
 >>>>>>> FETCH_HEAD
 }
 
@@ -631,8 +663,11 @@ Module Rules
 */
 .toggle-button {
 <<<<<<< HEAD
+<<<<<<< HEAD
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+=======
+>>>>>>> FETCH_HEAD
 =======
 >>>>>>> FETCH_HEAD
   background-color: #242424;
@@ -641,7 +676,11 @@ Module Rules
   animation: colorchange-font 5s linear 1s infinite alternate;
   display: inline-block;
 <<<<<<< HEAD
+<<<<<<< HEAD
   font-family: "cubano","helvetica","verdana",sans-serif;
+=======
+  font-family: "cubano",helvetica,verdana,sans-serif;
+>>>>>>> FETCH_HEAD
 =======
   font-family: "cubano",helvetica,verdana,sans-serif;
 >>>>>>> FETCH_HEAD
@@ -650,6 +689,11 @@ Module Rules
   padding: 4px;
   text-decoration: none;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+>>>>>>> FETCH_HEAD
 =======
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -664,7 +708,11 @@ nav[role="navigation"] ul a {
   font-size: 16px;
   font-size: 1rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   font-family: "cubano","helvetica","verdana",sans-serif;
+=======
+  font-family: "cubano",helvetica,verdana,sans-serif;
+>>>>>>> FETCH_HEAD
 =======
   font-family: "cubano",helvetica,verdana,sans-serif;
 >>>>>>> FETCH_HEAD
@@ -745,6 +793,7 @@ main[role="main"] h1 {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 main[role="main"] {
   background-color: rgba(177, 177, 177, 0.71);
   padding: 0 10px 0 10px;
@@ -753,6 +802,8 @@ main[role="main"] {
   box-sizing: border-box;
 }
 
+=======
+>>>>>>> FETCH_HEAD
 =======
 >>>>>>> FETCH_HEAD
 footer[role="contentinfo"] {
@@ -766,6 +817,11 @@ footer[role="contentinfo"] {
   line-height: 1;
   padding: 4px 8px 8px 8px;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+>>>>>>> FETCH_HEAD
 =======
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -880,6 +936,9 @@ applied to the same element as a base module class.
   }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> FETCH_HEAD
 =======
 >>>>>>> FETCH_HEAD

@@ -1,5 +1,5 @@
 // initialize animated anchor scroll
-// Remove /* and */ to initiate the plugin
+// Remove /* and */ to initiate the s
 $(function() {
     $('a[href*=#]:not([href=#])').click(function() {
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -19,9 +19,12 @@ $(function() {
 // initialize fitvids.js
 // Remove /* and */ to initiate the plugin
  $(document).ready(function(){
-<<<<<<< HEAD
     $(".fitvids").fitVids(); // target your .container, .wrapper, .post, etc.
 }); */
+=======
+    $("main").fitVids(); // target your .container, .wrapper, .post, etc.
+}); 
+
 =======
     $("main").fitVids(); // target your .container, .wrapper, .post, etc.
 }); 
